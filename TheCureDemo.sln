@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCureDemo", "TheCureDemo\TheCureDemo.csproj", "{1EFC97CE-7BF0-4BE4-BFBC-1A998938810F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCureGame", "TheCureGame\TheCureGame.csproj", "{D753A11C-80CC-4365-BC3E-70C76E144F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCureGame", "TheCureGame\TheCureGame.csproj", "{D753A11C-80CC-4365-BC3E-70C76E144F86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF0F588E-7999-4C10-BD13-BC7296AAF2A0}"
+	ProjectSection(SolutionItems) = preProject
+		The cure.docx = The cure.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
