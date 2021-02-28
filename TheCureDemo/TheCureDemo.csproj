@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ComapactGraphicsV2">
+    <Reference Include="ComapactGraphicsV2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Console-Graphics\CompactGraphics\bin\Debug\netstandard2.0\ComapactGraphicsV2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -46,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomTextBox.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="IntroMenu.cs" />
+    <Compile Include="MainMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="speaker.cs" />
+    <Compile Include="specialRect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheCureGame\TheCureGame.csproj">
+      <Project>{d753a11c-80cc-4365-bc3e-70c76e144f86}</Project>
+      <Name>TheCureGame</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
